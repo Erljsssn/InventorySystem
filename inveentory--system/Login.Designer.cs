@@ -105,7 +105,7 @@
             this.btnChangePassword.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnChangePassword.Location = new System.Drawing.Point(268, 146);
             this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(137, 32);
+            this.btnChangePassword.Size = new System.Drawing.Size(185, 32);
             this.btnChangePassword.TabIndex = 8;
             this.btnChangePassword.Text = "Change Password";
             this.btnChangePassword.UseVisualStyleBackColor = false;
@@ -115,7 +115,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(446, 224);
+            this.ClientSize = new System.Drawing.Size(474, 224);
             this.Controls.Add(this.btnChangePassword);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnLogin);

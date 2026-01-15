@@ -72,6 +72,8 @@
             this.panelMenu = new System.Windows.Forms.FlowLayoutPanel();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.panelContent = new System.Windows.Forms.Panel();
+            this.btnOutOfStock = new System.Windows.Forms.Button();
+            this.btnOnStock = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -154,7 +156,7 @@
             this.dataGridViewInventory.Name = "dataGridViewInventory";
             this.dataGridViewInventory.ReadOnly = true;
             this.dataGridViewInventory.RowHeadersWidth = 51;
-            this.dataGridViewInventory.Size = new System.Drawing.Size(1038, 250);
+            this.dataGridViewInventory.Size = new System.Drawing.Size(1038, 259);
             this.dataGridViewInventory.TabIndex = 15;
             // 
             // dataGridViewTextBoxColumn1
@@ -371,7 +373,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.pictureBox2.Location = new System.Drawing.Point(-1, -3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1104, 50);
+            this.pictureBox2.Size = new System.Drawing.Size(1333, 50);
             this.pictureBox2.TabIndex = 20;
             this.pictureBox2.TabStop = false;
             // 
@@ -413,7 +415,7 @@
             this.lblDateTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblDateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDateTime.ForeColor = System.Drawing.Color.Transparent;
-            this.lblDateTime.Location = new System.Drawing.Point(740, 9);
+            this.lblDateTime.Location = new System.Drawing.Point(752, 9);
             this.lblDateTime.Name = "lblDateTime";
             this.lblDateTime.Size = new System.Drawing.Size(52, 20);
             this.lblDateTime.TabIndex = 24;
@@ -450,6 +452,8 @@
             this.panelMenu.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panelMenu.Controls.Add(this.btnDashboard);
             this.panelMenu.Controls.Add(this.panelContent);
+            this.panelMenu.Controls.Add(this.btnOutOfStock);
+            this.panelMenu.Controls.Add(this.btnOnStock);
             this.panelMenu.Location = new System.Drawing.Point(-1, 44);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(180, 699);
@@ -472,6 +476,24 @@
             this.panelContent.Name = "panelContent";
             this.panelContent.Size = new System.Drawing.Size(200, 0);
             this.panelContent.TabIndex = 1;
+            // 
+            // btnOutOfStock
+            // 
+            this.btnOutOfStock.Location = new System.Drawing.Point(3, 38);
+            this.btnOutOfStock.Name = "btnOutOfStock";
+            this.btnOutOfStock.Size = new System.Drawing.Size(177, 23);
+            this.btnOutOfStock.TabIndex = 3;
+            this.btnOutOfStock.Text = "Out Of Stock";
+            this.btnOutOfStock.UseVisualStyleBackColor = true;
+            // 
+            // btnOnStock
+            // 
+            this.btnOnStock.Location = new System.Drawing.Point(3, 67);
+            this.btnOnStock.Name = "btnOnStock";
+            this.btnOnStock.Size = new System.Drawing.Size(177, 23);
+            this.btnOnStock.TabIndex = 2;
+            this.btnOnStock.Text = "On Stock";
+            this.btnOnStock.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -568,6 +590,8 @@
         private System.Windows.Forms.FlowLayoutPanel panelMenu;
         private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Panel panelContent;
+        private System.Windows.Forms.Button btnOutOfStock;
+        private System.Windows.Forms.Button btnOnStock;
     }
 }
 

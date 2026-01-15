@@ -58,6 +58,18 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="OnStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnStock.Designer.cs">
+      <DependentUpon>OnStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutOfStockcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutOfStockcs.Designer.cs">
+      <DependentUpon>OutOfStockcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnStock.resx">
+      <DependentUpon>OnStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutOfStockcs.resx">
+      <DependentUpon>OutOfStockcs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
